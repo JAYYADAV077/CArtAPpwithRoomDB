@@ -16,8 +16,7 @@ class MainApp: Application() {
             applicationContext,
             DB::class.java,
             DB.NAME
-        ).fallbackToDestructiveMigration()
-          .build()
+        ).build()
     }
 }
 
